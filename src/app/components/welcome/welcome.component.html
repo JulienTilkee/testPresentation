@@ -1,0 +1,5 @@
+
+<input id="logInput" type="text" placeholder="Login" [formControl]='login'>
+<input id="pwdInput" type="text" placeholder="Password" [formControl]='password'>
+<button id="loginButton" (click)='onLoginClick()'>Login</button>
+<p class="loginMessage" *ngIf='isLoginMessageVisible'>Incorrect login or password</p>

@@ -1,0 +1,8 @@
+<div [ngStyle]="{'background-color': color.white}">
+  <h1 id="appTitle" [ngStyle]="{'color': color.black}">{{ title }}</h1>
+  <button id="changeColors" (click)='invertColors()'>
+    <i [ngStyle]="{'color': color.black}" class="material-icons">
+      remove_red_eye
+    </i>
+  </button>
+</div>

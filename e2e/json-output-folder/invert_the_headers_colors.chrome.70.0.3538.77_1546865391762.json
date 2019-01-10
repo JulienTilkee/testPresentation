@@ -1,0 +1,115 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Invert the header's colors",
+    "line": 1,
+    "id": "invert-the-header's-colors",
+    "tags": [],
+    "uri": "e2e/src/features/header.feature",
+    "elements": [
+      {
+        "id": "invert-the-header's-colors;i-want-to-change-the-color-of-the-header",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "I want to change the color of the header",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/src/steps/header.steps.ts:9"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/src/steps/welcome.steps.ts:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I am on the welcome page",
+            "match": {
+              "location": "e2e/src/steps/welcome.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the eye button",
+            "match": {
+              "location": "e2e/src/steps/header.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should invert the header's background color",
+            "match": {
+              "location": "e2e/src/steps/header.steps.ts:17"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I should invert the header's title color",
+            "match": {
+              "location": "e2e/src/steps/header.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "70.0.3538.77"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
